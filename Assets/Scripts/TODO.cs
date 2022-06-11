@@ -22,8 +22,8 @@ pyro 4
 kohle fließband 4
 stier/bulle NPC 5
 
-Task Manager: 1
-Task 1: Finde den Eingang zur Kohlegrube - Schneide den Zaun auf
+Task Manager: 1 Bogdan
+Task 1: Finde den Eingang zur Kohlegrube - Schneide den Zaun auf 
 Task 2: finde den bagger und stoppe ihn (bagger als interactable,
 wenn interaction/collision mit bagger --> bagger freezes)
 
