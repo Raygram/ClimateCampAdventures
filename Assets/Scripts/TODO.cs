@@ -5,6 +5,8 @@ Player Actions:
 zäune aufschneiden mit zange 1 Jona
 bagger besetzen 1
 baumhaus bauen
+correct camera movement (marlena)
+animate digger
 
 stier/bulle
 
