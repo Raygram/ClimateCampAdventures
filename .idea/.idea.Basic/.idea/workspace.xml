@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c1b5460-d46c-463b-932a-e685395a5ef1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClimateActivist.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClimateActivist.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rd Party/Polytope Studio/Lowpoly Medieval Environments/SRP/PT_Environment_Pack_URP_7.5.3.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FenceOpen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FenceOpen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,8 @@
       <workItem from="1654946826611" duration="653000" />
       <workItem from="1654955716287" duration="648000" />
       <workItem from="1655035463005" duration="4139000" />
+      <workItem from="1655203482853" duration="660000" />
+      <workItem from="1655227313999" duration="870000" />
     </task>
     <servers />
   </component>
