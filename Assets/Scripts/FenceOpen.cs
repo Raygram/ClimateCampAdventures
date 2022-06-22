@@ -1,65 +1,39 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FenceOpen : MonoBehaviour
 {
-    //[SerializeField] 
-    //public KeyCode openFenceKey = KeyCode.Mouse0;
-
     private bool opened;
+    private bool e_pressed = false;
     
-    [SerializeField]
-    public float openingrange = 5f;
-
     void Update()
     {
-        RaycastHit hit;
-
+        // if you press E, a boolean is true so that you then can open the fence
         if (Input.GetKey(KeyCode.E))
         {
-            if (Physics.Raycast(transform.position, Vector3.forward, out hit, openingrange))
-            {
-                if (hit.collider.CompareTag("Fence"))
-                {
-                    if (!opened)
-                    {
-                        OpenFence();
-                        Debug.Log("You hit the fence");
-
-                    }
-                }
-
-            }
+            e_pressed = true;
         }
     }
 
-    void OpenFence()
+    private void OnTriggerEnter(Collider other)
     {
-        Debug.DrawRay(transform.position, Vector3.forward, Color.blue);
-        
-        opened = true;
-    }
-
-    public bool getOpened()
-    {
-        return opened;
-    }
-
-    /*void Update()
-    {
-        RaycastHit hit;
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
-
-        if (Physics.Raycast(transform.position, fwd, out hit, _raylength))
+        // if you have pressed E and now approach a fence, open it
+        if (other.CompareTag("Fence") && e_pressed)
         {
-            if (hit.collider.CompareTag("Fence"))
-            {
-                if (!opened)
-                {
-                    opened = true;
-                }
-            }
-        } */
-}
+            Debug.Log("Fence opened");
+            other.transform.Rotate(new Vector3(0f, 60f, 0f));
+        }
+    }
 
+    private void OnTriggerExit(Collider other)
+    {
+        // exit collider if you walk away from fence
+        if (other.CompareTag("Fence"))
+        {
+            e_pressed = false;
+        }
+    }
+}
