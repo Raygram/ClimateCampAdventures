@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class FenceOpen : MonoBehaviour
 {
-    private bool opened;
+    private bool opened = false;
     private bool e_pressed = false;
     
     void Update()
@@ -25,6 +25,7 @@ public class FenceOpen : MonoBehaviour
         {
             Debug.Log("Fence opened");
             other.transform.Rotate(new Vector3(0f, 60f, 0f));
+            opened = true;
         }
     }
 
@@ -35,5 +36,10 @@ public class FenceOpen : MonoBehaviour
         {
             e_pressed = false;
         }
+    }
+
+    public bool getOpened()
+    {
+        return opened;
     }
 }
