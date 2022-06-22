@@ -26,7 +26,7 @@ public class FenceOpen : MonoBehaviour
                     {
                         OpenFence();
                         Debug.Log("You hit the fence");
-                        
+
                     }
                 }
 
@@ -40,8 +40,12 @@ public class FenceOpen : MonoBehaviour
         
         opened = true;
     }
-        
-        
+
+    public bool getOpened()
+    {
+        return opened;
+    }
+
     /*void Update()
     {
         RaycastHit hit;
