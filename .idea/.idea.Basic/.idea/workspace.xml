@@ -7,8 +7,12 @@
     <list default="true" id="6c1b5460-d46c-463b-932a-e685395a5ef1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/Polytope Studio/Lowpoly Medieval Environments/SRP/PT_Environment_Pack_URP_7.5.3.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FenceOpen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FenceOpen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Water/Plane Meshes/Water100x100W100H100.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Water/Plane Meshes/Water100x100W100H100.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClimateActivist.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClimateActivist.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseBorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseBorder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TODO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TODO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +92,8 @@
       <workItem from="1655658614591" duration="10511000" />
       <workItem from="1655838392387" duration="1173000" />
       <workItem from="1655901112955" duration="7878000" />
-      <workItem from="1655917149635" duration="1473000" />
+      <workItem from="1655917149635" duration="1869000" />
+      <workItem from="1655999690241" duration="2474000" />
     </task>
     <servers />
   </component>

@@ -27,10 +27,9 @@ public class BaseBorder : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Border"))
         {
             leftBase = true;
-            this.gameObject.SetActive(false);
         }
     }
 }

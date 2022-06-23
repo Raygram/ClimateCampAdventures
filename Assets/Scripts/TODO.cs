@@ -2,7 +2,7 @@
 Task + Priority (1 = high, 5 = low)
 Player Actions:
 über bach springen
-zäune aufschneiden mit zange 1 Jona
+zäune aufschneiden mit zange 1 Jona check
 bagger besetzen 1
 baumhaus bauen
 correct camera movement (marlena) check
