@@ -8,14 +8,14 @@ baumhaus bauen
 correct camera movement (marlena) check
 even out path  (marlena) check
 animate digger (marlena)
+create digger collider (marlena)
 add förderband (marlena)
-create river (marlena)
+create river (marlena) check
+maybe relocate camp for shorter paths
+pfad gerade machen
 
-stier/bulle
 
-optional:
-an bagger anketten
-tripod bauen
+
 
 Environment:
 Waldgelände 1 check
@@ -32,6 +32,14 @@ Task 1 springe über den fluss um den eingang zu kohlegrube zu finden
 Task 2: Finde den Eingang zur Kohlegrube - Schneide den Zaun auf 
 Task 3: finde den bagger und stoppe ihn (bagger als interactable,
 wenn interaction/collision mit bagger --> bagger freezes)
+
+
+Final Todo:
+ungenutzte assets löschen
+coder aufräumen und kommentieren
+spiel exportieren
+video filmen
+git version checken
 
 
 Extras:
