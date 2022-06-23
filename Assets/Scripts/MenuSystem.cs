@@ -10,11 +10,15 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public GameObject menuButton;
     [SerializeField] public GameObject quest1Trigger;
     [SerializeField] public GameObject quest2Trigger;
+    [SerializeField] public GameObject quest3Trigger;
     [SerializeField] public Button quest1Button;
     [SerializeField] public Button quest2Button;
+    [SerializeField] public Button quest3Button;
 
     private bool quest1Complete;
     private bool quest2Complete;
+    private bool quest3Complete;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +36,10 @@ public class MenuSystem : MonoBehaviour
         if (quest2Complete == false)
         {
             CheckQuest2();
+        }
+        if (quest3Complete == false)
+        {
+            CheckQuest3();
         }
     }
 
@@ -77,5 +85,19 @@ public class MenuSystem : MonoBehaviour
             quest2Button.enabled = false;
             quest2Complete = true;
         }
+    }
+    private void CheckQuest3()
+    {
+       if (quest3Trigger.GetComponent<DiggerCollider>().GetCompleted())
+       {
+           if (menu.activeSelf == false)
+           {
+               menu.SetActive(true);
+               menuButton.SetActive(false);
+           }
+           
+           quest3Button.enabled = false;
+           quest3Complete = true;
+       }
     }
 }

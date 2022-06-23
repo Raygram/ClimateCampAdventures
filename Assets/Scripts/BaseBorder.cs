@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class BaseBorder : MonoBehaviour
 {
-    // Start is called before the first frame update
     public bool leftBase;
 
     public bool GetCompleted()
     {
         return leftBase;
     }
+
+    // Start is called before the first frame update
     void Start()
     
     {
