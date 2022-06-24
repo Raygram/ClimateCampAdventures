@@ -28,7 +28,6 @@ public class DiggerCollider : MonoBehaviour
         if (other.tag == "Player")
         {
             touchDigger = true;
-            this.gameObject.SetActive(false);
         }
     
     }
