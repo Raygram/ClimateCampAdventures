@@ -11,8 +11,9 @@ animate digger (marlena)
 create digger collider (marlena)
 add förderband (marlena)
 create river (marlena) check
-maybe relocate camp for shorter paths
+maybe relocate camp for shorter paths check
 pfad gerade machen
+fix bridge
 
 
 
