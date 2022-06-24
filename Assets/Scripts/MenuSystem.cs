@@ -10,7 +10,9 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public GameObject menuButton;
     [SerializeField] public GameObject quest1Trigger;
     [SerializeField] public GameObject quest2Trigger;
-    [SerializeField] public GameObject quest3Trigger;
+    [SerializeField] public GameObject quest3TriggerA;
+    [SerializeField] public GameObject quest3TriggerB;
+
     [SerializeField] public Button quest1Button;
     [SerializeField] public Button quest2Button;
     [SerializeField] public Button quest3Button;
@@ -88,7 +90,18 @@ public class MenuSystem : MonoBehaviour
     }
     private void CheckQuest3()
     {
-       if (quest3Trigger.GetComponent<DiggerCollider>().GetCompleted())
+       if (quest3TriggerA.GetComponent<DiggerCollider>().GetCompleted())
+       {
+           if (menu.activeSelf == false)
+           {
+               menu.SetActive(true);
+               menuButton.SetActive(false);
+           }
+           
+           quest3Button.enabled = false;
+           quest3Complete = true;
+       }
+        if (quest3TriggerB.GetComponent<DiggerCollider>().GetCompleted())
        {
            if (menu.activeSelf == false)
            {
