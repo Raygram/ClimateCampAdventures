@@ -2435,7 +2435,10 @@ MonoBehaviour:
 
 
     Find the digging pit on the map and occupy one of
-    the diggers to stop the destruction of nature!'
+    the diggers to stop the destruction of nature!
+
+    By standing by it, you occupy
+    it.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3578,7 +3581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find the Bulldozer and occupy it!
+  m_text: Find the diggers and occupy one of them!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
