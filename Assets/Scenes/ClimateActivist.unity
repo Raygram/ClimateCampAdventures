@@ -1519,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 6236481253738098687, guid: 6054391926411d74b82792369cb1d9d9, type: 3}
+      propertyPath: m_text
+      value: Find one of the diggers and occupy it!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6054391926411d74b82792369cb1d9d9, type: 3}
 --- !u!1001 &8232953157464806842
