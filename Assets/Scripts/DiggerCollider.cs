@@ -24,7 +24,8 @@ public class DiggerCollider : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {
+    {   
+        //player touches one of the diggers and fulfills Quest3
         if (other.tag == "Player")
         {
             touchDigger = true;

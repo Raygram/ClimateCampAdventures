@@ -27,6 +27,7 @@ public class BaseBorder : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+        //player leaves the BaseCamp and fulfills Quest1
         if (other.CompareTag("Border"))
         {
             leftBase = true;
