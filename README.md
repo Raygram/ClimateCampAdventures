@@ -7,6 +7,7 @@ This project was part of the Introduction to Unity course. Our first project wor
 </p>
 
 ## To get a sneak peek into the game you can watch our gameplay video
+https://youtu.be/IFivA9r4IJ8
 
 ## Assets and music that have been used in the game
 Assets:\
