@@ -12,7 +12,7 @@ create digger collider (marlena)
 add förderband (marlena)
 create river (marlena) check
 maybe relocate camp for shorter paths check
-pfad gerade machen
+pfad gerade machen check
 fix bridge
 
 
@@ -36,8 +36,8 @@ wenn interaction/collision mit bagger --> bagger freezes)
 
 
 Final Todo:
-ungenutzte assets löschen
-coder aufräumen und kommentieren
+ungenutzte assets löschen marlena
+coder aufräumen und kommentieren alle
 spiel exportieren
 video filmen
 git version checken
