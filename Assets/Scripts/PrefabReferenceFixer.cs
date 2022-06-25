@@ -3,7 +3,8 @@ using UnityEngine;
 
 [CreateAssetMenu()]
 public class PrefabReferenceFixer : ScriptableObject
-{
+{   
+    //used to fix prefab errors due to broken references
     [MenuItem("Assets/Force Reserialize")]
     private static void ForceReserialize()
     {

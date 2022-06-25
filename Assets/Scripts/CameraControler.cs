@@ -29,6 +29,7 @@ public class CameraControler : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {   
+        //lets camera rotate around the player by mouse movement
         if(RotateAroundPlayer)
         {
             Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * RotationsSpeed, Vector3.up);
