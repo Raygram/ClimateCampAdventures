@@ -5,13 +5,14 @@ using System.Linq;
 using UnityEngine;
 
 public class FenceOpen : MonoBehaviour
-{
+{   
+    // two booleans, one for pressing E and one for the fence
     private bool opened = false;
     private bool e_pressed = false;
     
     void Update()
     {
-        // if you press E, a boolean is true so that you then can open the fence
+        // if you press E, the first boolean is true so that you then can open the fence
         if (Input.GetKey(KeyCode.E))
         {
             e_pressed = true;
@@ -20,7 +21,7 @@ public class FenceOpen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // if you have pressed E and now approach a fence, open it
+        // if you have pressed E before and now approach a fence, open it
         if (other.CompareTag("Fence") && e_pressed)
         {
             Debug.Log("Fence opened");
@@ -37,7 +38,8 @@ public class FenceOpen : MonoBehaviour
             e_pressed = false;
         }
     }
-
+    
+    // return if the fence is open so that the menu system can use this info
     public bool getOpened()
     {
         return opened;
